@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heateflex Price Calculator</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+</head>
+<body>
+    <div class="page">
+        <div class="header-container">
+            <div class="header">
+                <h1 class="logo">
+                    
+                    <a href="https://wkfluidhandling.com" title="White Knight Fluid Handling"
+                class="logo">
+                    <img src="static/images/white-knight-logo.gif" alt="White Knight Fluid Handling Logo">
+                    </a>
+                </h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" backgr>
+                    <h3>Heateflex Heater Pricing</h3>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="well">
+                        <label for="type">Select Heater:</label>
+                        <select name="type" id="type">
+                            <option value="By Part Number">By Part Number</option>
+                            <option value="By Model and KW/VAC">By Model and KW/VAC</option>
+                            <option value="By Application">By Application</option>
+                        </select><br><br>
+                        
+                        <!--Make sure the form has the autocomplete function switched off:-->
+                        <form autocomplete="off" action="POST"> 
+                            <div class="autocomplete" style="width:300px;">
+                              <input id="myInput" type="text" name="myInput" placeholder="Enter Part Number">
+                            </div>
+                            &nbsp;
+                            &nbsp;
+                            <input type="submit" id="submit">
+                        </form> 
+                    </div>     
+                </div>   
+            </div>                     
+        </div>
+        
+                             
+    </div>
+    <script src="/static/js/lookup.js"></script>
+</body>
+</html>
